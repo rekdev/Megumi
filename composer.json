@@ -1,0 +1,9 @@
+{
+    "name": "rekdev/megumi",
+    "type": "project",
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}
