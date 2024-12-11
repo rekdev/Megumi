@@ -135,15 +135,3 @@ class User
         }
     }
 }
-
-try {
-    $user = new User();
-
-    $user_ret = $user->create("juanin", "Juan", "juan2006", "juan2007@gmail.com");
-    echo var_dump($user_ret);
-
-    $user_ret = $user->get_by_user_name("juanin");
-    echo var_dump($user_ret);
-} catch (Exception $e) {
-    echo $e->getPrevious();
-}
